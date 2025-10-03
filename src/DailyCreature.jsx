@@ -145,37 +145,37 @@ export const DailyCreature = () => {
   const getCampaignIcon = (campaign) => {
     switch(campaign) {
       case "Violent":
-        return "/icons/violent.png";
+        return "/rain-worldle/icons/violent.png";
         break;
       case "Monk":
-        return "/icons/Monk.webp";
+        return "/rain-worldle/icons/Monk.webp";
         break;
       case "Survivor":
-        return "/icons/Survivor.webp";
+        return "/rain-worldle/icons/Survivor.webp";
         break;
       case "Hunter":
-        return "/icons/Hunter.webp";
+        return "/rain-worldle/icons/Hunter.webp";
         break;
       case "Gourmand":
-        return "/icons/Gourmand.webp";
+        return "/rain-worldle/icons/Gourmand.webp";
         break;
       case "Artificer":
-        return "/icons/Artificer.webp";
+        return "/rain-worldle/icons/Artificer.webp";
         break;
       case "Rivulet":
-        return "/icons/Rivulet.webp";
+        return "/rain-worldle/icons/Rivulet.webp";
         break;
       case "Spearmaster":
-        return "/icons/Spearmaster.webp";
+        return "/rain-worldle/icons/Spearmaster.webp";
         break;
       case "Saint":
-        return "/icons/Saint.webp";
+        return "/rain-worldle/icons/Saint.webp";
         break;        
       case "Inv":
-        return "/icons/Inv.webp";
+        return "/rain-worldle/icons/Inv.webp";
         break;
       case "All":
-        return "/icons/all.png";
+        return "/rain-worldle/icons/all.png";
         break;
       default:
         return;
@@ -358,7 +358,7 @@ export const DailyCreature = () => {
                 determineColour(creature.Creature, "Creature")
                 )}>
                 <p style={basicTextStyleBold}>
-                  <img src={"/icons/"+creature.ID+".webp"} height="40px" />
+                  <img src={"/rain-worldle/icons/"+creature.ID+".webp"} height="40px" />
                 </p>
               </div>
               <div style={flexFeat(0.8, 
