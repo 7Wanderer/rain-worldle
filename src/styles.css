@@ -1,0 +1,33 @@
+.Game {
+    white-space: pre-wrap;
+    margin:auto;
+    width: 100vw;
+    @media only screen and (min-width : 768px) {
+        width: 65vw;
+      }
+    @media only screen and (min-width : 1080px) {
+        width: 45vw;
+      }
+}
+
+.dropdown {
+  align-content: center;
+  position: absolute;  
+  background-color: white;
+  border: 1px solid #d1d5db;
+  border-radius: 4px;
+  margin-top: 4px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  list-style: none;
+  padding: 4px 4px;
+}
+.dropdown-item {
+  padding: 4px 8px;
+  cursor: pointer;
+  color: black;
+}
+
+li:hover {
+  background-color: yellow;
+}
+
