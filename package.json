@@ -2,7 +2,7 @@
   "name": "rainworldle",
   "private": true,
   "version": "0.0.0",
-  "homepage": "http://rainworldle.uk",
+  "homepage": "https://rainworldle.uk",
   "type": "module",
   "scripts": {
     "dev": "vite",
